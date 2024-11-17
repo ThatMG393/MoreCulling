@@ -73,6 +73,9 @@ dependencies {
     modImplementation "maven.modrinth:sodium:${project.sodium_version}"
     // ^ Change to `modCompileOnly` to test without sodium
 
+    // Vulkan Compat
+    modImplementation "maven.modrinth:vulkanmod:${project.vulkanmod_version}"
+
     //ModMenu Compat
     modImplementation "maven.modrinth:modmenu:${project.modmenu_version}"
 
