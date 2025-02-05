@@ -33,4 +33,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with: 
           name: moreculling-dev
-          path: build/libs/*.jar
+          path: build/
+
+      - name: Upload Whole Repo 💀
+        uses: actions/upload-artifact@v4
+        with: 
+          name: moreculling-dev
+          path: ./*
